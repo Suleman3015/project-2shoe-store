@@ -1,0 +1,81 @@
+.launch {
+  width: auto;
+  margin-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+@media (max-width: 700px) {
+  .launch {
+    margin-top: 20%;
+  }
+}
+
+.Link {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  height: 450px;
+  color: black;
+
+  box-shadow: 0 0 10px #463636;
+  margin: 10px;
+}
+
+.Link:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+
+.name {
+  color: gray;
+}
+
+.name:hover {
+  color: black;
+}
+
+.butt {
+  border-radius: 10%;
+  box-shadow: 0 0 10px gray;
+  color: black;
+
+  text-align: center;
+  line-height: 40px;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-sizing: border-box;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.butt:hover {
+  box-shadow: 0 0 25px gray;
+  color: red;
+  transition: 0.5s;
+}
+
+.LaunchShoe {
+  font-family: "cambria";
+  margin-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.spec {
+  width: 60%;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+}
